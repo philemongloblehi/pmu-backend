@@ -17,8 +17,8 @@ public class CourseMapper {
         return new CourseDTO(
                 course.getId(),
                 course.getName(),
-                course.getNumber(),
                 course.getDate(),
+                course.getNumber(),
                 course.getPartants()
         );
     }
@@ -30,8 +30,8 @@ public class CourseMapper {
         return new Course(
                 courseDTO.getId(),
                 courseDTO.getName(),
-                courseDTO.getNumber(),
                 courseDTO.getDate(),
+                courseDTO.getNumber(),
                 courseDTO.getPartants()
         );
     }
